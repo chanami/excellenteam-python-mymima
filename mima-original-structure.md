@@ -2,28 +2,28 @@
 
 ## Pages
 * Home page: https://www.mima.co.il/
-* XXX page: https://www.mima.co.il/xxxxx?yyy=zzzz
-* XXX page: https://www.mima.co.il/xxxxx?yyy=zzzz
-* XXX page: https://www.mima.co.il/xxxxx?yyy=zzzz
-* XXX page: https://www.mima.co.il/xxxxx?yyy=zzzz
-* XXX page: https://www.mima.co.il/xxxxx?yyy=zzzz
+* artists results page: https://www.mima.co.il/artists_letter?letter=zzzz
+* songs results page: https://www.mima.co.il/songs_letter?letter=zzzz
+* search results page: https://www.mima.co.il/search?word=zzzz
+* Artist page: https://www.mima.co.il/artist?id=zzzz
+* Song page: https://www.mima.co.il/song?id=zzzz
 
 ## Entities and Relationships
 
-### Entity1
-* property1 (type)
-* property2 (type)
+### Artist
+* Name (string)
+* Songs (array)
 * property3 (type)
 * property4 (type)
 
-### Entity2
-* property1 (type)
-* property2 (type)
-* property3 (type)
+### Song
+* Title (string)
+* Artist/s Name/s (string)
+* Facts (Array)
 * property4 (type)
 
-### Entity3
-* property1 (type)
-* property2 (type)
-* property3 (type)
+### Fact
+* Title (string)
+* Text (string)
+* WrittenBy (string)
 * property4 (type)

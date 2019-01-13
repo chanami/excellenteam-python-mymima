@@ -11,19 +11,16 @@
 ## Entities and Relationships
 
 ### Artist
-* Name (string)
-* Songs (array)
-* property3 (type)
-* property4 (type)
+* id (number)
+* FullName (string)
 
 ### Song
+* id (number)
+* ArtistId (number)
 * Title (string)
-* Artist/s Name/s (string)
-* Facts (Array)
-* property4 (type)
 
 ### Fact
-* Title (string)
-* Text (string)
-* WrittenBy (string)
-* property4 (type)
+* id (number)
+* songId (number)
+* content (string)
+* writtenBy (string)

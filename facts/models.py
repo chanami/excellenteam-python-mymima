@@ -22,7 +22,7 @@ class Fact(models.Model):
     factID = models.AutoField(primary_key=True)
     fSongID = models.ForeignKey(Song, on_delete=models.CASCADE)
     content = models.TextField()
-    writtenBy = models.TextField()
+    author = models.TextField()
 
     def __str__(self):
         return self.content
